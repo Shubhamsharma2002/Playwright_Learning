@@ -15,4 +15,4 @@ test("Built-In-locator", async({page})=>{
     
     const name = await page.locator("//p[@class='oxd-userdropdown-name']").textContent();
     await expect(await page.getByText(name)).toBeVisible();
-})//p[@class='oxd-userdropdown-name']
+})
