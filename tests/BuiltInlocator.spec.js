@@ -7,6 +7,8 @@ test("Built-In-locator", async({page})=>{
     const logo = await page.getByAltText("company-branding");
     await expect(logo).toBeVisible(); 
 
+
+    
     // username ,password placeholder
      await page.getByPlaceholder("Username").fill("Admin");
      await page.getByPlaceholder("password").fill("admin123");
