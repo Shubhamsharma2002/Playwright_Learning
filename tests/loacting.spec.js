@@ -1,7 +1,5 @@
 import { test, expect } from "@playwright/test";
 
-
-
 test("Locating Anchor", async ({ page }) => {
   await page.goto("https://www.demoblaze.com/index.html");
   //  const links = await page.$$("a");
