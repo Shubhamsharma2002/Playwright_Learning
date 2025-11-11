@@ -1,5 +1,4 @@
 import { test, expect } from "@playwright/test";
-
 test("Home Page", async ({ page }) => {
   // Navigate to site
   await page.goto("https://www.demoblaze.com/index.html");
