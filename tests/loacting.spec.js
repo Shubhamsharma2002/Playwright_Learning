@@ -8,5 +8,7 @@ test("Locating Anchor", async ({ page }) => {
   for (const li of links) {
     const inerText = (await li.textContent())?.trim();
     console.log(inerText);
+
+    
   }
 });
