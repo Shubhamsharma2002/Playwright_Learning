@@ -7,6 +7,7 @@ test('test', async ({ page }) => {
   //  login username input
   await page.locator('#loginusername').click();
   await page.locator('#loginusername').fill('pavanol');
+  // login password input 
   await page.locator('#loginpassword').click();
   await page.locator('#loginpassword').fill('test@123');
   await page.getByRole('button', { name: 'Log in' }).click();
