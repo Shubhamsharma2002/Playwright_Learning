@@ -4,6 +4,7 @@ test('test', async ({ page }) => {
   //  page link 
   await page.goto('https://www.demoblaze.com/index.html');
   await page.getByRole('link', { name: 'Log in' }).click();
+  //  login username input
   await page.locator('#loginusername').click();
   await page.locator('#loginusername').fill('pavanol');
   await page.locator('#loginpassword').click();
