@@ -7,6 +7,8 @@ test("Built-In-locator", async ({ page }) => {
   );
   
   // logo alt text
+
+  
   const logo = await page.getByAltText("company-branding");
   await expect(logo).toBeVisible();
 
