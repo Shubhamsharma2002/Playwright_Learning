@@ -4,6 +4,7 @@ test("Soft Asseration tset", async ({ page }) => {
 
   await page.goto("https://demo.nopcommerce.com/register?returnUrl");
 
+  
   // 1) check the url is right or not
 
   await expect
