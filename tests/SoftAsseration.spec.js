@@ -1,6 +1,4 @@
 import { test, expect } from "@playwright/test";
-
-
 test("Soft Asseration tset", async ({ page }) => {
   // url link
 
